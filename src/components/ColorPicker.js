@@ -30,7 +30,7 @@ const ColorPicker = ({
   value,
   setValue
 }) => (
-  <div>
+  <div style={{marginTop:'16px', width:'100%'}}>
     <TextField
       name={name}
       id={id}
